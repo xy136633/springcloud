@@ -22,6 +22,7 @@
 	<modules>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>gateway</module>
     </modules>
     
     <dependencyManagement>
@@ -37,11 +38,6 @@
 	</dependencyManagement>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

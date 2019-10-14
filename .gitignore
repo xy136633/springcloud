@@ -27,3 +27,5 @@ hs_err_pid*
 /.settings
 /eureka-client/.mvn/wrapper
 /eureka-server/.mvn/wrapper
+/.idea
+/*.iml
